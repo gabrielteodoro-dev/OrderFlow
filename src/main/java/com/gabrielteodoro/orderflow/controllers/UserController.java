@@ -1,4 +1,4 @@
-package com.gabrielteodoro.orderflow.Resources;
+package com.gabrielteodoro.orderflow.controllers;
 
 import com.gabrielteodoro.orderflow.entities.User;
 import org.springframework.http.ResponseEntity;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/users")
-public class UserResource {
+public class UserController {
 
     @GetMapping
     public ResponseEntity<User> findAll(){
