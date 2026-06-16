@@ -1,7 +1,6 @@
 package com.gabrielteodoro.orderflow.services;
 
 import com.gabrielteodoro.orderflow.entities.Order;
-import com.gabrielteodoro.orderflow.entities.User;
 import com.gabrielteodoro.orderflow.repositories.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
